@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Explorador</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://s.widget-club.com/images/YyiR86zpwIMIfrCZoSs4ulVD9RF3/0639df48ec3e19a9df332d4b0bedcc4d/701b4ad69a135d114b20baaa55a0b84c.jpg?q=70&w=500" alt="">
+            <p>Você encontra um antigo diário em uma feira de antiguidades. O diário fala sobre uma relíquia mágica escondida em algum lugar do mundo. Decidido a encontrar a relíquia, você começa sua jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Londres</button>
+            <button class="btn-proximo" data-proximo="2">Tóquio</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você chega a Londres e descobre que a primeira pista está escondida no Museu Britânico. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Visitar o Museu Britânico</button>
+            <button class="btn-proximo" data-proximo="4">Explorar as ruas de Londres</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Tóquio, você descobre que a pista inicial está escondida no famoso templo Senso-ji. Qual será seu próximo passo?</p>
+            <button class="btn-proximo" data-proximo="5">Visitar o templo Senso-ji</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os mercados locais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No Museu Britânico, você encontra um antigo pergaminho que menciona a próxima pista em Paris.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Paris</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://www.creativefabrica.com/wp-content/uploads/2023/02/12/19th-Century-London-Main-Street-Graphic-60909191-1.png" alt="Imagem desistindo da aventura e voltando para casa">
+            <p>Você decide que a aventura é muito arriscada e volta para casa. No entanto, o mistério da relíquia mágica nunca sai da sua mente.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No templo Senso-ji, você encontra uma pista em uma antiga estátua, que leva você a Paris.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Paris</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando os mercados locais, você encontra vários itens interessantes, mas nada que ajude na busca pela relíquia.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e visitar o templo Senso-ji</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Em Paris, você encontra um antigo castelo onde a pista indica que a relíquia está escondida em uma caverna secreta.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o castelo</button>
+            <button class="btn-proximo" data-proximo="10">Visitar a Torre Eiffel</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao templo Senso-ji, você encontra um mapa que confirma a pista para Paris. Agora você está pronto para continuar sua jornada!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Paris</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Dentro da caverna secreta do castelo em Paris, você descobre a relíquia mágica e completa sua jornada com sucesso.</p>
+            <img src="https://img.freepik.com/fotos-premium/diamante-sobre-um-fundo-brilhante-dourado-e-azul-efervescente_981499-618.jpg" alt="Encontrando a relíquia mágica no castelo">
+            <p>Você agora é conhecido como um grande explorador e estudioso da história antiga.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao visitar a Torre Eiffel, você desfruta de uma bela vista de Paris, mas não encontra nada relacionado à relíquia.</p>
+            <button class="btn-proximo" data-proximo="11">Retornar e explorar o castelo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Voltando ao castelo e explorando a caverna secreta, você finalmente encontra a relíquia mágica.</p>
+            <img src="https://img.freepik.com/fotos-premium/diamante-sobre-um-fundo-brilhante-dourado-e-azul-efervescente_981499-618.jpg"alt="Encontrando a relíquia mágica no castelo">
+            <p>Com a relíquia em mãos, você realiza descobertas incríveis e se torna uma lenda no mundo da exploração.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
